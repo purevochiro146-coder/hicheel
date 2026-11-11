@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKA WEBSITE</title>
+
+    <style>
+       
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    background: #101014;
+    color: white;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    padding: clamp(15px, 4vw, 50px);
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4, h5 {
+    margin: 15px auto;
+    font-weight: bold;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+}
+
+h1 {
+    color: #ff3030;
+    font-size: clamp(30px, 6vw, 55px);
+    text-shadow: 0 0 15px red;
+}
+
+h2 {
+    color: #ff5555;
+    font-size: clamp(25px, 5vw, 42px);
+}
+
+h3 {
+    color: #ff7777;
+    font-size: clamp(22px, 4vw, 32px);
+}
+
+h4 {
+    color: #ff9999;
+    font-size: clamp(18px, 3vw, 26px);
+}
+
+h5 {
+    color: #ffbbbb;
+    font-size: clamp(16px, 2.5vw, 21px);
+}
+
+/* TEXT BOX */
+pre {
+    background: #1c1c25;
+    border: 1px solid #ff3030;
+    border-radius: 15px;
+    padding: clamp(15px, 4vw, 30px);
+    margin: 30px auto;
+    width: min(100%, 650px);
+    color: #eee;
+    font-family: Arial, sans-serif;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    box-shadow: 0 0 20px #ff303033;
+}
+
+/* LINKS */
+a {
+    display: inline-block;
+    color: #ff4545;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 12px;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 0 0 10px red;
+}
+
+/* BUTTON */
+button {
+    background: #ff3030;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    max-width: 100%;
+}
+
+button:hover {
+    background: #cc0000;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px red;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* TABLET: 768px */
+@media (max-width: 768px) {
+
+    body {
+        padding: 25px 15px;
+    }
+
+    h1 {
+        text-shadow: 0 0 10px red;
+    }
+
+    pre {
+        margin: 20px auto;
+    }
+
+    button {
+        padding: 13px 24px;
+    }
+}
+
+/* MOBILE: 480px */
+@media (max-width: 480px) {
+
+    body {
+        padding: 20px 12px;
+    }
+
+    h1, h2, h3, h4, h5 {
+        margin: 12px auto;
+    }
+
+    pre {
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    a {
+        margin: 8px;
+    }
+
+    button {
+        width: 100%;
+        padding: 14px;
+        font-size: 15px;
+    }
+}
+
+/* SMALL MOBILE: 320px */
+@media (max-width: 320px) {
+
+    body {
+        padding: 12px 8px;
+    }
+
+    pre {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 13px;
+    }
+}
+
+/* LARGE SCREENS: 1200px+ */
+@media (min-width: 1200px) {
+
+    body {
+        padding-top: 60px;
+    }
+
+    pre {
+        max-width: 750px;
+    }
+}
+
+/* ACCESSIBILITY */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+
+    <h1>handsome aka</h1>
+    <h2>good boy</h2>
+    <h3>mash sain huhed</h3>
+    <h4>heheheh</h4>
+    <h5>Hello World</h5>
+
+    <pre>
+AKA MAL BSN
+ODOOCH MAL 😂
+
+    <a href="https://facebook.com" target="_blank">
+        AKA TENEG
+    </a>
+
+    <button onclick="alert('AKA 😂')">
+        AKA MAL TENEG
+    </button>
+    </pre>
+
+</body>
+</html>
